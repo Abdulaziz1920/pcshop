@@ -1,0 +1,74 @@
+#main {
+  padding-top: 200px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation li a {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  gap: 10px;
+  color: #121d31;
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+}
+.navigation li {
+  transition: 0.3s;
+}
+.navigation li:hover {
+  transform: scale(1.2) !important;
+  transition: 0.3s !important;
+}
+.logimage {
+  width: 80px;
+  height: 80px;
+  background: transparent;
+}
+.cards_item {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+.items {
+  padding: 0 10px;
+  max-width: 260px;
+  border: 1px solid rosybrown;
+  border-radius: 10px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.price {
+  padding: 10px 0;
+}
+.mainbtn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.mainbtn button {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(192, 255, 1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+body {
+  background-image: url(../../assets/image1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

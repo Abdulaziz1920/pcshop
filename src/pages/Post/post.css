@@ -1,0 +1,33 @@
+.infoPosts {
+  padding-top: 12px;
+}
+.laptopcards {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  color: #121d31;
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+}
+.aboutProducts h1 {
+  font-size: 80px;
+}
+.aboutProducts ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.aboutProducts ul li {
+  font-size: 30px;
+  display: flex;
+  gap: 10px;
+}
+.settings {
+  width: 35px;
+  height: 35px;
+}
